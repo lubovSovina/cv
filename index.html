@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Lubov CV</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="photo" src="avatar.jpg" alt="Моя фотография">
+            <div class="info-text">
+                <h1>Любовь Совина</h1>
+                <p><em> Я студентка ИвГУ, преподаватель <strong>Лицея Аккадемии Яндекса.</strong></em></p>
+                <p>Проходила стажировку в компании Akvelon.</p>
+                <h4>Мои социальные сети</h4>
+                <a href="https://t.me/lubovsovina" target="_blank">Telegram</a> 
+                |
+                <a href="https://vk.com/lubov_sovina" target="_blank">ВКонтакте</a> 
+            </div>
+        </div>
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Рисование</li>
+                <li>Шахматы</li>
+                <li>Игра на гитаре</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+                <tr>
+                    <td>Akvelon</td>
+                    <td>Младший инженер-программист</td>
+                    <td>2021 - 2021</td>
+                </tr>
+                <tr>
+                    <td>МБУДО "ЦРДО"</td>
+                    <td>Педагог дополнительного образования</td>
+                    <td>2021 - н.в.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card bg-red">    
+            <h2>Мои работы</h2>
+            <a href="projects.html">Ссылка на страницу с проектами</a>
+        </div>
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя: </label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш Email: </label>
+                        <input type="email" id="email" placeholder="Введите email...">
+                    </div>
+                </div>
+                <div class="form-group">    
+                    <label for="text">Ваше сообщение: </label>
+                    <textarea name="" id="text" cols="30" rows="5"></textarea>
+                </div>    
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
